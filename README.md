@@ -17,7 +17,7 @@ cd bcd-tool
 ```
 
 ```sh
-sudo pip3 install .
+sudo pip3 install -e .
 ```
 
 ## Usage
