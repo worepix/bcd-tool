@@ -12,7 +12,7 @@ with open('requirements.txt', 'r') as f:
 setup(
     name='bcd',
     packages=find_packages(),
-    version='@@VERSION@@',
+    version='1.0',
     description='BigClown tool for bigclown developers.',
     author='HARDWARIO s.r.o.',
     author_email='radim.kozak@hardwario.com',
@@ -32,7 +32,7 @@ setup(
     ],
     entry_points='''
         [console_scripts]
-        bcd=bcd.cli:main
+        bcd=bcd:main
     ''',
     long_description=long_description,
     long_description_content_type='text/markdown'
